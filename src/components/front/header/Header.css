@@ -1,0 +1,47 @@
+.header {
+    position: sticky;
+    top: 0;
+    min-height: 80px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: cursive;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+}
+
+.link ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.link ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.link ul li a:hover {
+    color: yellow;
+}
+
+.cl {
+    font-size: 14px;
+    margin: 3px;
+    vertical-align: super;
+    font-weight: 700;
+}
